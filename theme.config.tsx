@@ -2,17 +2,23 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <span style={{ fontWeight: 500, fontSize: '1.35em' }}>ISELP Programming</span>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/benceruleanlu/iselp2',
   },
-  chat: {
-    link: 'https://discord.com',
-  },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: 'https://github.com/benceruleanlu/iselp2',
   footer: {
-    text: 'Nextra Docs Template',
+    component: null,
   },
+  editLink: {
+    component: null,
+  },
+  feedback: {
+    labels: 'documentation',
+  },
+  search: {
+    placeholder: 'Search articles...',
+  }
 }
 
 export default config
