@@ -1,11 +1,7 @@
-import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
-const config: DocsThemeConfig = {
+export const config: DocsThemeConfig = {
   logo: <span style={{ fontWeight: 500, fontSize: '1.35em' }}>ISELP Programming</span>,
-  project: {
-    link: 'https://github.com/benceruleanlu/iselp2',
-  },
   docsRepositoryBase: 'https://github.com/benceruleanlu/iselp2',
   footer: {
     component: null,
@@ -18,7 +14,10 @@ const config: DocsThemeConfig = {
   },
   search: {
     placeholder: 'Search articles...',
+  },
+  useNextSeoProps() {
+    return {
+      titleTemplate: "%s - ISELP Programming",
+    };
   }
 }
-
-export default config
