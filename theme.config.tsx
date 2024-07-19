@@ -1,7 +1,10 @@
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
-export const config: DocsThemeConfig = {
+const config: DocsThemeConfig = {
   logo: <span style={{ fontWeight: 500, fontSize: '1.35em' }}>ISELP Programming</span>,
+  project: {
+    link: 'https://github.com/benceruleanlu/iselp2',
+  },
   docsRepositoryBase: 'https://github.com/benceruleanlu/iselp2',
   footer: {
     component: null,
@@ -21,3 +24,5 @@ export const config: DocsThemeConfig = {
     };
   }
 }
+
+export default config
