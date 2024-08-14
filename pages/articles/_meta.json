@@ -1,7 +1,17 @@
 {
-  "portrait": "Portrait of a learner engaged in ISELP",
-  "dual": "ISELP and other exceptionalities/diagnoses",
-  "iep": "Creating an ISELP Individual Education Plan",
-  "teacher": "The Role of the Classroom Teacher in ISELP",
-  "staff": "The Role School-Based Support Staff in ISELP"
+  "portrait": {
+    "title" : "Portrait of a learner engaged in ISELP"
+  },
+  "dual": {
+    "title" : "ISELP and other exceptionalities/diagnoses"
+  },
+  "iep": {
+    "title": "Creating an ISELP Individual Education Plan"
+  },
+  "teacher": {
+    "title": "The Role of the Classroom Teacher in ISELP"
+  },
+  "staff": {
+    "title" : "The Role School-Based Support Staff in ISELP"
+  }
 }
