@@ -1,12 +1,18 @@
-# Introduction
- 
-Welcome to the online resource for ISELP Programming.
+import { Cards, Card } from 'nextra/components';
+import CustomCard from "../components/card";
 
-This resource is an alternate format to the [ISELP Programming Guide](https://docs.google.com/document/d/19JGCfusp80INEaoEr3Kflopd67AFguzkGtJh-I2Y7Lg/edit?usp=sharing), for educators to access when supporting students engaged in ISELP at their schools.
-
-Each section provides two options for readers:
-
-1. A *highlights and summary* section that reviews the basic level of information about that topic.
-2. An *in-depth* section that goes into significantly more detail about that topic.
-
-This resource is designed to be used by classroom teachers, ISSP teachers, administrators, SERTs, and anyone else involved in supporting students engaged in ISELP.
+<div style={{textAlign: 'center', padding: '1em'}}>
+<div style = {{backgroundColor: '#0066CC', padding: '1.5em'}}>
+# Welcome to the online resource for ISELP Programming!
+</div>
+##### This resource is meant for educators to access when supporting students engaged in ISELP, and provides an alternative format for the [ISELP Programming Guide](https://docs.google.com/document/d/19JGCfusp80INEaoEr3Kflopd67AFguzkGtJh-I2Y7Lg/edit?usp=sharing).
+    <div style = {{display: "grid", gridTemplate: "1fr 1fr 1fr / 1fr 1fr"}}>
+        <CustomCard title="Portrait of a Learner Engaged in ISELP" subtitle="Learn how to understand and support gifted learners, including their characteristics and potential challenges." linkUrl='/articles/portrait'/>
+        <CustomCard title="ISELP and Other Exceptionalities/Diagnoses" subtitle="Learn how to support Dual Exceptional students with additional diagnoses or exceptionalities." linkUrl='/articles/dual'/>
+        <CustomCard title="Creating an ISELP Individual Education Plan" subtitle="Learn how to understand and support gifted learners, including their characteristics and potential challenges." linkUrl='/articles/iep'/>
+        <CustomCard title="The Role Of The Classroom Teacher In ISELP" subtitle="Learn how to effectively engage and challenge learners in ISELP with specific classroom strategies." linkUrl='/articles/teacher'/>
+        <CustomCard title="The Role Of School-Based Support Staff in ISELP" subtitle="Learn how to effectively implement and support the ISELP program in a regular classroom setting." linkUrl='/articles/staff'/>
+        <CustomCard title="References, Resources, and Further Reading" subtitle="Learn more about the resources used on this website." linkUrl='/references'/>
+    </div>
+    ###### Click on any of the cards to take you to their respective articles, or use the search feature in the top right corner to look for certain keywords.
+</div>

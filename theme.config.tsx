@@ -1,4 +1,6 @@
-import { DocsThemeConfig } from 'nextra-theme-docs'
+import { DocsThemeConfig} from 'nextra-theme-docs'
+
+
 
 const config: DocsThemeConfig = {
   logo: <span style={{ fontWeight: 500, fontSize: '1.15em' }}>ISELP Programming</span>,
@@ -22,7 +24,8 @@ const config: DocsThemeConfig = {
     return {
       titleTemplate: "%s - ISELP Programming",
     };
-  }
+  },
+
 }
 
 export default config

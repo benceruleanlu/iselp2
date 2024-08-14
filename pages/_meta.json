@@ -1,6 +1,44 @@
 {
-  "index": "Introduction",
-  "articles": "Articles",
-  "references": "References, Resources, and Further Reading",
-  "about": "About"
+  "index": {
+    "title" : "Home", 
+    "type" : "page",
+    "display" : "hidden",
+    "theme" : {
+      "layout" : "full"
+    }
+  },
+  "about": {
+    "title" : "About",
+    "type" : "page"
+  },
+  "references": {
+    "title" : "References",
+    "type" : "page"
+  },
+  "articles": {
+    "title" : "Articles", 
+    "type" : "menu",
+    "items" : {
+      "portrait" : {
+        "title" : "Portrait of a Learner Engaged in ISELP",
+        "href" : "/articles/portrait"
+      },
+      "dual" : {
+        "title" : "ISELP and other exceptionalities/diagnoses",
+        "href" : "/articles/dual"
+      },
+      "iep" : {
+        "title" : "Creating an ISELP Individual Education Plan",
+        "href" : "/articles/iep"
+      },
+      "teacher" : {
+        "title" : "The Role of the Classroom Teacher in ISELP",
+        "href" : "/articles/teacher"
+      },
+      "staff" : {
+        "title" : "The Role School-Based Support Staff in ISELP",
+        "href" : "staff"
+      }
+    }
+  }
 }
