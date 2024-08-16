@@ -22,6 +22,9 @@ const config: DocsThemeConfig = {
     return {
       titleTemplate: "%s - ISELP Programming",
     };
+  },
+  sidebar: {
+    toggleButton: true,
   }
 }
 
