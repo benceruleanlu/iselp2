@@ -1,12 +1,78 @@
+import Image from 'next/image'
+import { Cards } from 'nextra/components'
+import { title } from 'process'
+
 # Introduction
- 
-Welcome to the online resource for ISELP Programming.
 
-This resource is an alternate format to the [ISELP Programming Guide](https://docs.google.com/document/d/19JGCfusp80INEaoEr3Kflopd67AFguzkGtJh-I2Y7Lg/edit?usp=sharing), for educators to access when supporting students engaged in ISELP at their schools.
+This resource summarizes the [ISELP Programming Guide](https://docs.google.com/document/d/19JGCfusp80INEaoEr3Kflopd67AFguzkGtJh-I2Y7Lg/edit?usp=sharing), which contains helpful information for educators to better support students engaged in ISELP.
 
-Each section provides two options for readers:
+## Quick Start
 
-1. A *highlights and summary* section that reviews the basic level of information about that topic.
-2. An *in-depth* section that goes into significantly more detail about that topic.
+All writings have been sorted into six articles you can read:
 
-This resource is designed to be used by classroom teachers, ISSP teachers, administrators, SERTs, and anyone else involved in supporting students engaged in ISELP.
+<Cards num={6}>
+  <Cards.Card image title="Portrait of a Learner Engaged in ISELP" href="/articles/portrait">  
+    <Image
+      src="/img1.jpg"
+      width={640}
+      height={800}
+      alt="Placeholder"
+      style={{ aspectRatio: '3 / 2', objectFit: 'cover' }}
+    />
+  </Cards.Card>
+  <Cards.Card image title="ISELP and Other Exceptionalities/Diagnoses" href="/articles/dual">
+        <Image
+      src="/img2.jpg"
+      width={640}
+      height={960}
+      alt="Placeholder"
+      style={{ aspectRatio: '3 / 2', objectFit: 'cover' }}
+    />
+  </Cards.Card>
+  <Cards.Card image title="Creating an ISELP Individual Education Plan" href="/articles/iep">
+    <Image
+      src="/img3.jpg"
+      width={640}
+      height={853}
+      alt="Placeholder"
+      style={{ aspectRatio: '3 / 2', objectFit: 'cover' }}
+    />
+  </Cards.Card>
+  <Cards.Card image title="The Role of the Classroom Teacher in ISELP" href="/articles/teacher">
+    <Image
+      src="/img4.jpg"
+      width={640}
+      height={401}
+      alt="Placeholder"
+      style={{ aspectRatio: '3 / 2', objectFit: 'cover' }}
+    />
+  </Cards.Card>
+  <Cards.Card image title="The Role of School-Based Support Staff in ISELP" href="/articles/staff">
+    <Image
+      src="/img5.jpg"
+      width={640}
+      height={427}
+      alt="Placeholder"
+      style={{ aspectRatio: '3 / 2', objectFit: 'cover' }}
+    />
+  </Cards.Card>
+  <Cards.Card image title="References, Resources, and Further Reading" href="/references">
+    <Image
+      src="/img6.jpg"
+      width={640}
+      height={960}
+      alt="Placeholder"
+      style={{ aspectRatio: '3 / 2', objectFit: 'cover' }}
+    />
+  </Cards.Card>
+</Cards>
+
+If you can't find what you need, try using the search feature on the top-right.
+
+## Usage
+
+Each article is split into three sections:
+
+1. A **highlights and summary** section that reviews the basic level of information about that topic.
+2. An **in-depth** section that goes into significantly more detail about that topic.
+3. A **further reading** section that cites footnotes and links resources.
