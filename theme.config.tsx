@@ -1,11 +1,15 @@
-import { DocsThemeConfig } from 'nextra-theme-docs'
+import { DocsThemeConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
-  logo: <span style={{ fontWeight: 500, fontSize: '1.15em' }}>ISELP Programming</span>,
+  logo: (
+    <span style={{ fontWeight: 500, fontSize: "1.15em" }}>
+      ISELP Programming
+    </span>
+  ),
   project: {
-    link: 'https://github.com/benceruleanlu/iselp2',
+    link: "https://github.com/benceruleanlu/iselp2",
   },
-  docsRepositoryBase: 'https://github.com/benceruleanlu/iselp2',
+  docsRepositoryBase: "https://github.com/benceruleanlu/iselp2",
   footer: {
     component: null,
   },
@@ -13,10 +17,10 @@ const config: DocsThemeConfig = {
     component: null,
   },
   feedback: {
-    labels: 'documentation',
+    labels: "documentation",
   },
   search: {
-    placeholder: 'Search articles...',
+    placeholder: "Search articles...",
   },
   useNextSeoProps() {
     return {
@@ -25,7 +29,7 @@ const config: DocsThemeConfig = {
   },
   sidebar: {
     toggleButton: true,
-  }
-}
+  },
+};
 
-export default config
+export default config;
